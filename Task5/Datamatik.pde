@@ -8,6 +8,7 @@ void setup() {
 
   println(student1.name+" = "+student1.age);
   println(student2.name+" = "+student2.age);
+  println(isClassMates(student1, student2));
 }
 
 boolean isClassMates(student student1, student student2) {
